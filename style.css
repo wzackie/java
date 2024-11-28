@@ -1,0 +1,49 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cairo", sans-serif;
+}
+section{
+    direction: rtl;
+    text-align: right;
+    box-shadow:0px 10px 15px 1px #00bfffa6 ;
+    background-color:#00bfff2c;    
+    width: 350px;
+    padding: 20px 30px;
+    color: #124ab194;
+}
+.error{
+    color: rgb(238, 9, 9);
+    padding-bottom:10px;
+    text-align: right;
+}
+.button{
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Cairo", sans-serif;
+}
+input[type='submit']{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+body.darkmode{
+    background-color: #000000;
+}
